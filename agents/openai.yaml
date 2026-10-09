@@ -1,0 +1,4 @@
+interface:
+  display_name: "MIMIC 研究草案审计"
+  short_description: "审查 draft.md 研究草案，验证 MIMIC 数据可行性并核查相关文献"
+  default_prompt: "使用 $mimic-research-explorer，读取我提供的 draft.md，执行数据可行性审计和文献核查，给出有证据的修改建议并保留原稿。"
